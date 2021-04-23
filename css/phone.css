@@ -1,0 +1,99 @@
+/* navigation  */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* home section */
+#home{
+    height: 370px;
+    padding: 3px 68px;
+}
+#home::before{
+    height: 480px;
+}
+#home h1{
+    
+    color: white;
+    text-align: left;
+    margin-left: -60px;
+    margin-top: 51px;
+    font-size: 2.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p{
+    
+       /* font-size: 13px; */
+        margin-left: -59px;
+        margin-top: 11px;
+        font-family: 'Bree Serif', serif;
+        font-size: 1.5rem;
+
+}
+.btn1{
+
+    padding: 3px 10px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: rgb(184, 37, 37);
+    color: white;
+    margin: 0px;
+    margin-left: 35px;
+    margin-top: 5px;
+    font-size: 1.0rem;
+    cursor: pointer;
+
+}
+.btn2{
+
+    padding: 3px 8px;
+    border: 5px solid white;
+    border-radius: 9px;
+    background-color: rgb(184, 37, 37);
+    color: white;
+    /* margin: 17px; */
+    margin-left: 34px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+
+}
+/* service section */
+#services{
+    flex-direction: column;
+}
+#services .box{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+#services .box img{
+    height: 132px;
+}
+
+/* client section */
+#client{
+    flex-wrap: wrap;
+}
+#client img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+/* contact section */
+
+/* footer section */
+
+/*utility classes*/
+
+.h-primary{
+    font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}  
